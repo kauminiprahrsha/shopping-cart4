@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*style for the first section header */
+        .Item{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(107, 6, 202);
+            color: black;
+            font-size: 200%;
+
+        
+            
+        }
+        /*style for first section rows */
+        .rows{
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+            display: inline-block;
+            background-color: rgb(199, 202, 200);
+
+        }
+        
+        .image{
+            display: flex;
+            justify-content: end;
+            width: 200px;
+            height: 220px;
+            position: relative;
+        }
+        /*style for last section */
+         .cart-inside{
+            font-style: inherit;
+            font-size: x-large;
+            width: 1475px;
+            height: 155px;
+            background-color: rgb(229, 229, 19);
+            color: rgb(12, 13, 13);
+
+    }
+        .k {
+            background-color: rgb(186, 186, 154);
+        }  
+        .p{
+            background-color: rgb(55, 55, 208);
+            color: aliceblue;
+        }
+    </style>    
+</head>
+<body>
+    <div class="first section ">
+        <div class="row">
+            <div class="Item div"> 
+                <h1 class="Item header"><center>Items</center></h1>
+            </div>
+        </div>
+    
+    </div>
+    <div class="k"><center>
+
+        <div class="rows">
+            <img src="galaxy a03s.jpeg" alt="galaxy a03s" class="image">
+          <h2>Samsung Galaxy<br>AO3s</h2>
+          <button class="p" onclick="addToCart('Samsung Galaxy',)">Add To Cart</button>
+        </div>
+        <div class="rows">
+            <img src="Huawei nova.jpeg"alt="Huawei nova" class="image">
+            <h2>Huawei<br>Nova</h2>
+            <button class="p" onclick="addToCart('Huawei Nova',)">Add To Cart</button>
+
+            
+        </div>
+        <div class="rows">
+            <img src="iphone11.jpeg"alt=" iphone11" class="image">
+            <h2>Apple iPhone11<br>64GB</h2>
+            <button class="p" onclick="addToCart('Apple iPhone11 64GB',)">Add To Cart</button>
+            
+        </div>
+        <div class="rows">
+            <img src="iphone 13.jpeg"alt="iphone 13" class="image">
+            <h2>iphone 13<br>Pro-128GB</h2>
+            <button class="p"  onclick="addToCart('iphone 13',)">Add To Cart</button>
+            
+        </div>
+        <div class="rows">
+            <img src="iphone se.jpeg"alt="iphone se" class="image">
+            <h2>Apple iPhone SE<br>3(2022)64GB</h2>
+            <button class="p" onclick="addToCart('Apple iPhone SE 3(2022)64GB',)">Add To Cart</button>
+          </div>
+        </div></center>
+    <div class="cart cart-inside">
+        <h1><center>cart</center></h1>
+        <div class="cart-inside">
+            <div class="image-cart"><img src="294547.svg" width="11%" height="5%">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
